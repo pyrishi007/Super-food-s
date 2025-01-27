@@ -20,5 +20,13 @@
   },
   "browserslist": [
     "last 2 version"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyrishi007/Super-food-s.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pyrishi007/Super-food-s/issues"
+  },
+  "homepage": "https://github.com/pyrishi007/Super-food-s#readme"
 }
