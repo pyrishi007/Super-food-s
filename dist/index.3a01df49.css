@@ -1,0 +1,216 @@
+@import "https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap";
+:root {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  z-index: 1000;
+  background-color: #f1882d;
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 8px #0000004d;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+}
+
+.logo > img {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+
+.logo > p {
+  color: #fff;
+  padding-left: 10px;
+}
+
+.navmenu {
+  align-items: center;
+  padding-right: 30px;
+  display: flex;
+}
+
+.navmenu > ul {
+  display: flex;
+}
+
+.navmenu > ul > li {
+  color: #fff;
+  padding-left: 30px;
+}
+
+.restro_main_body {
+  background: url("beverage-fast-food-with-copy-space.50fe9c5e.jpg") 0 0 / cover no-repeat;
+  padding: 30px;
+}
+
+.search_bar {
+  justify-content: center;
+  margin-top: 70px;
+  display: flex;
+  position: relative;
+}
+
+::placeholder {
+  color: #f1882d;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.search_bar input:focus {
+  border: none;
+  outline: none;
+}
+
+.search_bar input {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  width: 500px;
+  height: 50px;
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.search_bar button {
+  background-color: #f1882d;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  right: 32pc;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+button img {
+  filter: invert();
+  width: 15px;
+  height: 15px;
+}
+
+.restro_card {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 75px;
+  display: flex;
+}
+
+.restro {
+  background-color: #f1882d;
+  border-radius: 20px;
+  width: 250px;
+  height: 340px;
+  margin: 30px;
+  transition: all .3s ease-in-out;
+  position: relative;
+}
+
+.restro:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 10px #0000004d;
+}
+
+.restro_img {
+  justify-content: center;
+  padding-top: 10px;
+  display: flex;
+}
+
+.restro_img img {
+  object-fit: fill;
+  border-radius: 20px;
+  width: 230px;
+  height: 200px;
+}
+
+.description {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 100%;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.description > h3, p {
+  text-align: center;
+}
+
+.star {
+  background-color: #e1700c;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.star img {
+  filter: invert();
+  width: 12px;
+  height: 12px;
+}
+
+.star p {
+  padding-left: 5px;
+}
+
+.disc {
+  margin-top: 10px;
+}
+
+#para {
+  font-size: 10px;
+}
+
+.fav-box {
+  background-color: #275e33;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.fav-box > p {
+  color: #fff;
+  text-align: left;
+  font-size: 12px;
+}
+
+.down_desc {
+  justify-content: space-between;
+  padding: 0 10px;
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  left: 5px;
+  right: 5px;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
