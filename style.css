@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap");
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0px;
+  padding: 0pc;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", serif;
+  box-sizing: border-box;
+}
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f1882d;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ------logo section ---- */
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo > img {
+  border-radius: 10px;
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+
+.logo > p {
+  padding-left: 10px;
+  color: white;
+}
+
+/* -----nav bar section ------ */
+.navmenu {
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.navmenu > ul {
+  display: flex;
+}
+.navmenu > ul > li {
+  padding-left: 30px;
+  color: white;
+}
+
+/*-----body------ */
+.restro_main_body {
+  padding: 30px;
+  background: url("./src/assets/beverage-fast-food-with-copy-space.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* search bar */
+.search_bar {
+  /* border: 2px solid black; */
+  margin-top: 70px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+::placeholder {
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: #f1882d;
+}
+
+.search_bar input:focus {
+  border: none;
+  outline: none;
+}
+
+.search_bar input {
+  padding: 20px;
+  width: 500px;
+  border-radius: 20px;
+  height: 50px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 17px;
+  
+}
+
+.search_bar button {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(241, 136, 45);
+  position: absolute;
+  right: 32pc;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button img {
+  width: 15px;
+  height: 15px;
+  filter: invert(100%);
+}
+
+/* ---- restro-card ------ */
+.restro_card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 75px;
+}
+
+.restro {
+  position: relative; 
+  width: 250px;
+  height: 340px;
+  background-color: rgb(241, 136, 45);
+
+  border-radius: 20px;
+  margin-top: 20px;
+  margin: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.restro:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+}
+
+.restro_img {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.restro_img img {
+  width: 230px;
+  height: 200px;
+  border-radius: 20px;
+  /* background-size: cover; */
+  object-fit: fill;
+}
+
+
+.description {
+  height: 100%;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  margin: 15px;
+}
+.description > h3 , p{
+  text-align: center;
+}
+.star {
+    /* border: 2px solid red; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  border-radius: 5px;
+  background-color: rgb(225, 112, 12);
+  
+}
+
+.star img {
+  width: 12px;
+  height: 12px;
+  filter: invert(100%);
+}
+.star p {
+  padding-left: 5px;
+  
+
+  /* color: white; */
+}
+.disc{
+    margin-top: 10px;
+}
+#para{
+
+    font-size: 10px;
+}
+.fav-box {
+    /* border: 2px solid red; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  border-radius: 5px;
+  background-color: rgb(39, 94, 51);
+  
+}
+.fav-box > p {
+    color: white;
+    font-size: 12px;
+  text-align: left;
+}
+
+.down_desc{
+  position: absolute; /* Position the section absolutely */
+  bottom: 15px; /* 15px above the bottom of the card */
+  left: 5px;
+  right: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px; 
+  
+}
