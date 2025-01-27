@@ -18588,985 +18588,151 @@ module.exports = require("b0f0e6b9e8349dac");
 })();
 
 },{"6f0162e9ab224cd4":"21dqq"}],"6J35F":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$4f14 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+// // import Body_search_bar from "./Body_search_bar";
+// import restro_data from "../utility/mock_data";
+// import Restro_card from "./Restro_card";
+// import search from "../assets/search-analytics.png";
+// //React component - body
+// const Body = () => {
+//   //restro_data stored in filter_data
+//   let filter_data = restro_data;
+//   console.log(filter_data);
+//   return (
+//     <div className="restro_main_body">
+//       <div className="search_bar">
+//         <input
+//           type="text"
+//           placeholder="search your fav-restro's"
+//           id="ineer_text"
+//         />
+//         <button
+//           onClick={() => {
+//             filter_data = filter_data.filter(
+//               (data) => {return data.info.availability.avgRating > 4}
+//             );
+//             console.log(filter_data)
+//           }}
+//         >
+//           <img src={search} alt="" />
+//         </button>
+//       </div>
+//       <div className="restro_card">
+//         {filter_data.map(
+//           (data) => (
+//             console.log(data.info.avgRating ), (<Restro_card restro_api_data={data} />)
+//           )
+//         )}
+//       </div>
+//     </div>
+//   );
+// };
+// export default Body;
+
+},{}],"fNIx6":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$2257 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4f14.prelude(module);
+$parcel$ReactRefreshHelpers$2257.prelude(module);
 
 try {
-// import Body_search_bar from "./Body_search_bar";
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _mockData = require("../utility/mock_data");
-var _mockDataDefault = parcelHelpers.interopDefault(_mockData);
-var _restroCard = require("./Restro_card");
-var _restroCardDefault = parcelHelpers.interopDefault(_restroCard);
-var _searchAnalyticsPng = require("../assets/search-analytics.png");
-var _searchAnalyticsPngDefault = parcelHelpers.interopDefault(_searchAnalyticsPng);
-//React component - body
-const Body = ()=>{
-    //restro_data stored in filter_data
-    let filter_data = (0, _mockDataDefault.default);
-    console.log(filter_data);
+var _superFox3Png = require("../assets/Super Fox (3).png");
+var _superFox3PngDefault = parcelHelpers.interopDefault(_superFox3Png);
+//React component - header
+const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "restro_main_body",
+        className: "header",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "search_bar",
+                className: "logo",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "text",
-                        placeholder: "search your fav-restro's",
-                        id: "ineer_text"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _superFox3PngDefault.default),
+                        alt: ""
                     }, void 0, false, {
-                        fileName: "src/Components/Body.js",
-                        lineNumber: 15,
+                        fileName: "src/Components/Header.js",
+                        lineNumber: 8,
                         columnNumber: 9
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        onClick: ()=>{
-                            filter_data = filter_data.filter((data)=>{
-                                return data.info.availability.avgRating > 4;
-                            });
-                            console.log(filter_data);
-                        },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _searchAnalyticsPngDefault.default),
-                            alt: ""
-                        }, void 0, false, {
-                            fileName: "src/Components/Body.js",
-                            lineNumber: 29,
-                            columnNumber: 11
-                        }, undefined)
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Super food's"
                     }, void 0, false, {
-                        fileName: "src/Components/Body.js",
-                        lineNumber: 20,
+                        fileName: "src/Components/Header.js",
+                        lineNumber: 9,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
-                fileName: "src/Components/Body.js",
-                lineNumber: 14,
+                fileName: "src/Components/Header.js",
+                lineNumber: 7,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "restro_card",
-                children: filter_data.map((data)=>(console.log(data.info.avgRating), /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restroCardDefault.default), {
-                        restro_api_data: data
-                    }, void 0, false, {
-                        fileName: "src/Components/Body.js",
-                        lineNumber: 35,
-                        columnNumber: 49
-                    }, undefined)))
+                className: "navmenu",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Home"
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.js",
+                            lineNumber: 13,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Cart"
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.js",
+                            lineNumber: 14,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "About us"
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.js",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Contact us"
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.js",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Header.js",
+                    lineNumber: 12,
+                    columnNumber: 9
+                }, undefined)
             }, void 0, false, {
-                fileName: "src/Components/Body.js",
-                lineNumber: 32,
+                fileName: "src/Components/Header.js",
+                lineNumber: 11,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/Components/Body.js",
-        lineNumber: 13,
+        fileName: "src/Components/Header.js",
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
-_c = Body;
-exports.default = Body;
+_c = Header;
+exports.default = Header;
 var _c;
-$RefreshReg$(_c, "Body");
+$RefreshReg$(_c, "Header");
 
-  $parcel$ReactRefreshHelpers$4f14.postlude(module);
+  $parcel$ReactRefreshHelpers$2257.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../utility/mock_data":"lFa6U","./Restro_card":"7nQID","../assets/search-analytics.png":"aW5oz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lFa6U":[function(require,module,exports,__globalThis) {
-// back_end data for swiggy
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-const restro_data = [
-    {
-        info: {
-            id: "55473",
-            name: "Pizza Hut",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/d281ae33-578d-482f-a4e2-8cf0d8ee3d58_55473.jpg",
-            locality: "Sector 10",
-            areaName: "Rohini",
-            costForTwo: "\u20B9350 for two",
-            cuisines: [
-                "Pizzas"
-            ],
-            avgRating: 4.1,
-            parentId: "721",
-            avgRatingString: "4.1",
-            totalRatingsString: "7.5K+",
-            sla: {
-                deliveryTime: 28,
-                lastMileTravel: 2.1,
-                serviceability: "SERVICEABLE",
-                slaString: "25-30 mins",
-                lastMileTravelString: "2.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2024-12-23 04:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Rxawards/_CATEGORY-Pizza.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Pizza.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "50% OFF",
-                subHeader: "UPTO \u20B990"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-            widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-        }
-    },
-    {
-        info: {
-            id: "603438",
-            name: "Chinese Wok",
-            cloudinaryImageId: "e0839ff574213e6f35b3899ebf1fc597",
-            locality: "Sector 7",
-            areaName: "Rohini",
-            costForTwo: "\u20B9250 for two",
-            cuisines: [
-                "Chinese",
-                "Asian",
-                "Tibetan",
-                "Desserts"
-            ],
-            avgRating: 4.3,
-            parentId: "61955",
-            avgRatingString: "4.3",
-            totalRatingsString: "1.3K+",
-            sla: {
-                deliveryTime: 30,
-                lastMileTravel: 2.8,
-                serviceability: "SERVICEABLE",
-                slaString: "25-30 mins",
-                lastMileTravelString: "2.8 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2024-12-22 23:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B9149"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        }
-    },
-    {
-        info: {
-            id: "498382",
-            name: "Burger King",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/9/64339639-9425-4d7a-807f-6fca82056ec3_498382.jpg",
-            locality: "M2K Mall",
-            areaName: "Rohini",
-            costForTwo: "\u20B9350 for two",
-            cuisines: [
-                "Burgers",
-                "American"
-            ],
-            avgRating: 4.5,
-            parentId: "166",
-            avgRatingString: "4.5",
-            totalRatingsString: "5.4K+",
-            sla: {
-                deliveryTime: 18,
-                lastMileTravel: 2,
-                serviceability: "SERVICEABLE",
-                slaString: "15-20 mins",
-                lastMileTravelString: "2.0 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2024-12-23 03:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Rxawards/_CATEGORY-Burger.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Burger.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "60% OFF",
-                subHeader: "UPTO \u20B9120"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        }
-    },
-    {
-        info: {
-            id: "622616",
-            name: "Domino's Pizza",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/29/5c5d1d92-c9b5-42ce-9e74-5b3c2cb960e4_622616.jpg",
-            locality: "3rd Sector",
-            areaName: "Rohini",
-            costForTwo: "\u20B9400 for two",
-            cuisines: [
-                "Pizzas",
-                "Italian",
-                "Pastas",
-                "Desserts"
-            ],
-            avgRating: 4.5,
-            parentId: "2456",
-            avgRatingString: "4.5",
-            totalRatingsString: "1.2K+",
-            sla: {
-                deliveryTime: 25,
-                lastMileTravel: 0.8,
-                serviceability: "SERVICEABLE",
-                slaString: "20-25 mins",
-                lastMileTravelString: "0.8 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2024-12-23 02:59:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                        description: "bolt!"
-                    },
-                    {
-                        imageId: "Rxawards/_CATEGORY-Pizza.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "bolt!",
-                                    imageId: "bolt/Bolt%20Listing%20badge@3x.png"
-                                }
-                            },
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Pizza.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "\u20B9175 OFF",
-                subHeader: "ABOVE \u20B9999",
-                discountTag: "FLAT DEAL"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        }
-    },
-    {
-        info: {
-            id: "622353",
-            name: "Rollsking",
-            cloudinaryImageId: "iwabglvwcmfmelcgwzox",
-            locality: "DC CHOWK",
-            areaName: "Rohini",
-            costForTwo: "\u20B9250 for two",
-            cuisines: [
-                "Fast Food",
-                "Rolls & Wraps",
-                "North Indian",
-                "Snacks"
-            ],
-            avgRating: 3.9,
-            parentId: "4697",
-            avgRatingString: "3.9",
-            totalRatingsString: "2.0K+",
-            sla: {
-                deliveryTime: 25,
-                lastMileTravel: 3,
-                serviceability: "SERVICEABLE",
-                slaString: "25-30 mins",
-                lastMileTravelString: "3.0 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2024-12-23 04:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Rxawards/_CATEGORY-Rolls.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Rolls.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "\u20B9125 OFF",
-                subHeader: "ABOVE \u20B9449",
-                discountTag: "FLAT DEAL"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        }
-    },
-    {
-        info: {
-            id: "10392",
-            name: "Subway",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/e2256cf4-e2bc-4c6f-93df-bf9c4f030fd9_10392.JPG",
-            locality: "Sector 3",
-            areaName: "Rohini M2K",
-            costForTwo: "\u20B9350 for two",
-            cuisines: [
-                "sandwich",
-                "Salads",
-                "wrap",
-                "Healthy Food"
-            ],
-            avgRating: 4.3,
-            parentId: "2",
-            avgRatingString: "4.3",
-            totalRatingsString: "12K+",
-            sla: {
-                deliveryTime: 22,
-                lastMileTravel: 2,
-                serviceability: "SERVICEABLE",
-                slaString: "20-25 mins",
-                lastMileTravelString: "2.0 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2024-12-23 04:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "bolt/Bolt%20Listing%20badge@3x.png",
-                        description: "bolt!"
-                    },
-                    {
-                        imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Salad.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "bolt!",
-                                    imageId: "bolt/Bolt%20Listing%20badge@3x.png"
-                                }
-                            },
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Salad.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "ITEMS",
-                subHeader: "AT \u20B9119"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        }
-    },
-    {
-        info: {
-            id: "225317",
-            name: "La Pino'z Pizza",
-            cloudinaryImageId: "aizb6uyem2jb1hcrhxac",
-            locality: "Rohini",
-            areaName: "New Friends Colony",
-            costForTwo: "\u20B9500 for two",
-            cuisines: [
-                "Pizzas",
-                "Pastas",
-                "Italian",
-                "Desserts",
-                "Beverages"
-            ],
-            avgRating: 4.3,
-            parentId: "4961",
-            avgRatingString: "4.3",
-            totalRatingsString: "17K+",
-            sla: {
-                deliveryTime: 29,
-                lastMileTravel: 4,
-                serviceability: "SERVICEABLE",
-                slaString: "25-30 mins",
-                lastMileTravelString: "4.0 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2024-12-23 05:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "50% OFF",
-                subHeader: "UPTO \u20B990"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "3.9",
-                    ratingCount: "245"
-                },
-                source: "GOOGLE",
-                sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        }
-    },
-    {
-        info: {
-            id: "27025",
-            name: "KFC",
-            cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/99f929ea-9435-4e92-ae07-14b85a629f16_27025.JPG",
-            locality: "Unity One Mall",
-            areaName: "Rohini",
-            costForTwo: "\u20B9400 for two",
-            cuisines: [
-                "Burgers",
-                "Rolls & Wraps",
-                "Fast Food"
-            ],
-            avgRating: 4.3,
-            parentId: "547",
-            avgRatingString: "4.3",
-            totalRatingsString: "14K+",
-            sla: {
-                deliveryTime: 18,
-                lastMileTravel: 2.1,
-                serviceability: "SERVICEABLE",
-                slaString: "15-20 mins",
-                lastMileTravelString: "2.1 km",
-                iconType: "ICON_TYPE_EMPTY"
-            },
-            availability: {
-                nextCloseTime: "2024-12-22 23:00:00",
-                opened: true
-            },
-            badges: {
-                imageBadges: [
-                    {
-                        imageId: "Rxawards/_CATEGORY-Burger.png",
-                        description: "Delivery!"
-                    }
-                ]
-            },
-            isOpen: true,
-            type: "F",
-            badgesV2: {
-                entityBadges: {
-                    imageBased: {
-                        badgeObject: [
-                            {
-                                attributes: {
-                                    description: "Delivery!",
-                                    imageId: "Rxawards/_CATEGORY-Burger.png"
-                                }
-                            }
-                        ]
-                    },
-                    textBased: {},
-                    textExtendedBadges: {}
-                }
-            },
-            aggregatedDiscountInfoV3: {
-                header: "50% OFF",
-                subHeader: "UPTO \u20B980"
-            },
-            orderabilityCommunication: {
-                title: {},
-                subTitle: {},
-                message: {},
-                customIcon: {}
-            },
-            differentiatedUi: {
-                displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                differentiatedUiMediaDetails: {
-                    mediaType: "ADS_MEDIA_ENUM_IMAGE",
-                    lottie: {},
-                    video: {}
-                }
-            },
-            reviewsSummary: {},
-            displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-            restaurantOfferPresentationInfo: {},
-            externalRatings: {
-                aggregatedRating: {
-                    rating: "--"
-                }
-            },
-            ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-        }
-    }
-];
-exports.default = restro_data;
+},{"react/jsx-dev-runtime":"iTorj","../assets/Super Fox (3).png":"gDLvy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gDLvy":[function(require,module,exports,__globalThis) {
+module.exports = require("36ce60afa9b476d0").getBundleURL('lPpKD') + "Super Fox (3).3b4d90d8.png" + "?" + Date.now();
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports,__globalThis) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, '__esModule', {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === 'default' || key === '__esModule' || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"7nQID":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$2d8d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2d8d.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _starPng = require("../assets/star.png");
-var _starPngDefault = parcelHelpers.interopDefault(_starPng);
-var _cdnLinks = require("../utility/CDN_links");
-//React - component down_description of restro card
-const Down_descp = (props)=>{
-    const { new_data } = props;
-    // console.log(new_data);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "description",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: new_data.name
-            }, void 0, false, {
-                fileName: "src/Components/Restro_card.js",
-                lineNumber: 12,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: new_data.cuisines.join(", ")
-            }, void 0, false, {
-                fileName: "src/Components/Restro_card.js",
-                lineNumber: 13,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "down_desc",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "star",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: (0, _starPngDefault.default)
-                            }, void 0, false, {
-                                fileName: "src/Components/Restro_card.js",
-                                lineNumber: 17,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: new_data.avgRating
-                            }, void 0, false, {
-                                fileName: "src/Components/Restro_card.js",
-                                lineNumber: 18,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/Restro_card.js",
-                        lineNumber: 16,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "fav-box",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "TOP PICK'S"
-                        }, void 0, false, {
-                            fileName: "src/Components/Restro_card.js",
-                            lineNumber: 23,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Restro_card.js",
-                        lineNumber: 22,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/Restro_card.js",
-                lineNumber: 14,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/Restro_card.js",
-        lineNumber: 11,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Down_descp;
-//React component - Restro_card-body
-const Restro_card = (props)=>{
-    const sanitized_data = props.restro_api_data.info;
-    // console.log(sanitized_data.cloudinaryImageId);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "restro",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "restro_img",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _cdnLinks.CDN_LINK) + sanitized_data.cloudinaryImageId,
-                    alt: "",
-                    srcset: ""
-                }, void 0, false, {
-                    fileName: "src/Components/Restro_card.js",
-                    lineNumber: 38,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/Components/Restro_card.js",
-                lineNumber: 37,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "restro_description",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Down_descp, {
-                    new_data: sanitized_data
-                }, void 0, false, {
-                    fileName: "src/Components/Restro_card.js",
-                    lineNumber: 46,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/Components/Restro_card.js",
-                lineNumber: 45,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/Restro_card.js",
-        lineNumber: 36,
-        columnNumber: 5
-    }, undefined);
-};
-_c1 = Restro_card;
-exports.default = Restro_card;
-var _c, _c1;
-$RefreshReg$(_c, "Down_descp");
-$RefreshReg$(_c1, "Restro_card");
-
-  $parcel$ReactRefreshHelpers$2d8d.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","../assets/star.png":"km6El","../utility/CDN_links":"51QNH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km6El":[function(require,module,exports,__globalThis) {
-module.exports = require("8f628f7c6b51ace2").getBundleURL('lPpKD') + "star.66e8d3af.png" + "?" + Date.now();
-
-},{"8f628f7c6b51ace2":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
+},{"36ce60afa9b476d0":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -19601,13 +18767,37 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"51QNH":[function(require,module,exports,__globalThis) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "CDN_LINK", ()=>CDN_LINK);
-const CDN_LINK = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+},{}],"gkKU3":[function(require,module,exports,__globalThis) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, '__esModule', {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === 'default' || key === '__esModule' || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"km3Ru":[function(require,module,exports,__globalThis) {
+},{}],"km3Ru":[function(require,module,exports,__globalThis) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 var { version } = require("630b62916b1ae0e7");
@@ -19752,113 +18942,6 @@ function registerExportsForReactRefresh(module1) {
 },{"7422ead32dcc1e6b":"786KC","630b62916b1ae0e7":"4SQxb"}],"4SQxb":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"react-refresh\",\"description\":\"React is a JavaScript library for building user interfaces.\",\"keywords\":[\"react\"],\"version\":\"0.14.2\",\"homepage\":\"https://reactjs.org/\",\"bugs\":\"https://github.com/facebook/react/issues\",\"license\":\"MIT\",\"files\":[\"LICENSE\",\"README.md\",\"babel.js\",\"runtime.js\",\"cjs/\",\"umd/\"],\"main\":\"runtime.js\",\"exports\":{\".\":\"./runtime.js\",\"./runtime\":\"./runtime.js\",\"./babel\":\"./babel.js\",\"./package.json\":\"./package.json\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/facebook/react.git\",\"directory\":\"packages/react\"},\"engines\":{\"node\":\">=0.10.0\"},\"devDependencies\":{\"react-16-8\":\"npm:react@16.8.0\",\"react-dom-16-8\":\"npm:react-dom@16.8.0\",\"scheduler-0-13\":\"npm:scheduler@0.13.0\"}}");
 
-},{}],"aW5oz":[function(require,module,exports,__globalThis) {
-module.exports = require("f04f88177441405e").getBundleURL('lPpKD') + "search-analytics.b3b35cee.png" + "?" + Date.now();
-
-},{"f04f88177441405e":"lgJ39"}],"fNIx6":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$2257 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2257.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _superFox3Png = require("../assets/Super Fox (3).png");
-var _superFox3PngDefault = parcelHelpers.interopDefault(_superFox3Png);
-//React component - header
-const Header = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "header",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "logo",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _superFox3PngDefault.default),
-                        alt: ""
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.js",
-                        lineNumber: 8,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Super food's"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.js",
-                        lineNumber: 9,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/Header.js",
-                lineNumber: 7,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "navmenu",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Home"
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.js",
-                            lineNumber: 13,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Cart"
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.js",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "About us"
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.js",
-                            lineNumber: 15,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Contact us"
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.js",
-                            lineNumber: 16,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/Header.js",
-                    lineNumber: 12,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/Components/Header.js",
-                lineNumber: 11,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/Header.js",
-        lineNumber: 6,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$2257.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","../assets/Super Fox (3).png":"gDLvy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gDLvy":[function(require,module,exports,__globalThis) {
-module.exports = require("36ce60afa9b476d0").getBundleURL('lPpKD') + "Super Fox (3).3b4d90d8.png" + "?" + Date.now();
-
-},{"36ce60afa9b476d0":"lgJ39"}]},["aQL8O","9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
+},{}]},["aQL8O","9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
 
 //# sourceMappingURL=index.0641b553.js.map
